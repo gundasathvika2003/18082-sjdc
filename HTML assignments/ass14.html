@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+      
+    <form action="/action_page.php">
+    Enter First Name<input type="text" placeholder="first name">
+    <br>
+    Enter Last Name<input type="text" placeholder="last name">
+    <br>
+    Enter Email<input type="email" placeholder="email">
+    <br>
+    <p>Programming Languags known:</p>
+    <input type="checkbox" id="pl">
+    <label for="pl">C</label><br>
+    <input type="checkbox" id="pl">
+    <label for="pl">C++</label><br>
+    <input type="checkbox" id="pl">
+    <label for="pl">Java</label><br>
+    <input type="checkbox" id="pl">
+    <label for="pl">Python</label><br><br>
+   <label for="city">Select your city:</label>
+   <select id="city" name="city">
+   
+    <option value="Kurnool">Kurnool</option>
+    <option value="Nandyal">Nandyal</option>
+    <option value="Kadapa">Kadapa</option>
+    <option value="Chittor">Chittor</option>
+   </select>
+<br><br>
+    <input type="submit" value="submit">
+    <input type="reset" value="clear form">
+    </form>
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>
