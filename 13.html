@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Positioning Elements</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .container {
+        width: 100%;
+        height: 600px;
+        background-color: #f0f0f0;
+        position: relative;
+    }
+    
+    .relative {
+        width: 700px;
+        height: 100px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+    
+    .absolute {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 100px;
+        left: 50px;
+    }
+    
+    .fixed {
+        width: 200px;
+        height: 200px;
+
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+    
+    .sticky {
+        width: 50px;
+        height: 50px;
+
+        position: sticky;
+        top: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="relative">
+        <center> <h1>St.Joseph's Degree College</h1></center>
+        <br><br><br> <h3>About</h3>
+       <p>St. Joseph's Degree College, located in Kurnool, India, is governed by St. Joseph's Educational Society and registered under the Societies Registration Act XXI of 1860 in 1967. St. Joseph's Degree College is a self-financed college, without grant-in-aid. </p>
+    </div>
+    <div class="absolute"> 08518 226268<br> sjcknl@yahoo.com</div>
+    <div class="fixed"><img src="csspictures/college.png" height="200px" width="300px"></div>
+    <div class="sticky"><button>contact us</button></div>
+</div>
+</body>
+</html>
